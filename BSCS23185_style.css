@@ -1,0 +1,67 @@
+body{
+    background-color: ghostwhite
+}
+h1{
+    color: red;
+    align-items: center;
+    text-decoration: underline;
+}
+
+nav{
+    background: yellow;
+    display: flex;
+
+}
+nav a{
+    margin-left: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.circular-image {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* .imagemine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#image1{
+    border-radius: 50%;
+} */
+
+#main_intro{
+    size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#education_para{
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#cp_list{
+    font-style: normal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
